@@ -38,6 +38,8 @@ header{
     justify-content: space-around;
     align-items: center;
     background-color: #ebebeb; 
+    position:sticky;
+    top:0;
 }
 
 .navbar{
@@ -126,6 +128,11 @@ i{
     color: #000;
 }
 
+.sec2 h1{
+    position:relative;
+    top: 30px;
+}
+
 .boxes{
     display: flex;
     justify-content: space-evenly;
@@ -156,4 +163,29 @@ i{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.sec3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    height: 300px;
+    color:#1f2937;
+    gap:20px;
+}
+
+blockquote{
+    height: 50%;
+    width: 30%;
+}
+
+.hermes{
+    height: 150px;
+}
+
+.sec4{
+    display: flex;
+    background-color: whitesmoke;
+    height: 300px;
 }
